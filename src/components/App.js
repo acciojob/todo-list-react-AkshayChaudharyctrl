@@ -37,7 +37,7 @@ function App() {
       <h1>To-Do List</h1>
       <div className="add_tasks_section">
         <input
-          type="text"
+          type="textarea"
           value={taskInput}
           onChange={handleTaskInputChange}
           placeholder="Enter a task"
